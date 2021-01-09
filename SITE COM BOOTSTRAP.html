@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+
+<style>
+
+
+
+</style>
+
+  </head>
+  <body>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<!-- 
+    <script>
+
+// $(window).scroll(function(){
+// $('nav').toggleclass('scrolled',$(this).scrolltop()>50);  
+// });
+</script> -->
+
+
+
+    <header> 
+
+  
+    <nav class="navbar navbarlg navbar-light bg-light">                  <!-- <nav class="navbar navbar-light bg-transparent"></nav> -->
+      <a class="navbar-brand mx-3" href="#">
+        
+        <img src="logotipo.png" width="140px" height="100px" class="d-inline-block align-top" alt="logo" loading="lazy">
+      </a>
+      
+      <div class="redes-sociais">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="img/rss.png" />
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="img/face.png" />
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="img/tw.png" />
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="img/linkedin.png" />
+                </a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+
+  </header> 
+    
+ 
+
+  </section>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
+      <a class="navbar-brand" href="#">Início</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">jóias <span class="sr-only">(current)</span></a>
+          </li> -->
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jóias</a>
+            
+          </a>
+
+
+          <div class="dropdwm menu-menu">
+          
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">masculino</a>
+            <a class="dropdown-item" href="#">casual</a>
+            <a class="dropdown-item" href="#">esportivo</a>
+          </div>
+
+
+
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Camisetas</a>
+          
+        </a>
+
+
+        <div class="dropdwm menu-menu active">
+        
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">masculino</a>
+          <a class="dropdown-item" href="#">casual</a>
+          <a class="dropdown-item" href="#">esportivo</a>
+        </div>
+
+
+
+      </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Relógios
+            </a>
+
+
+            <div class="dropdwm menu-menu">
+            
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">masculino</a>
+              <a class="dropdown-item" href="#">casual</a>
+              <a class="dropdown-item" href="#">esportivo</a>
+            </div>
+          </li>
+
+     
+
+
+
+
+          
+
+          
+          <li class="nav-item active ">
+            <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">Contato</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+    
+    
+    <!-- <nav class="navbar navbar-light bg-dark"></nav>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Ativo</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Ação</a>
+          <a class="dropdown-item" href="#">Outra ação</a>
+          <a class="dropdown-item" href="#">Algo mais aqui</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Link isolado</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Desativado</a>
+      </li>
+    </ul>
+
+<ul class="navbar-nav ml-auto">
+
+  <li class="nav-item dropdown">
+
+    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Social</a> 
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">Facebook</a>
+ <a class="dropdown-item" href="#">Twitter</a> 
+ <a class="dropdown-item" href="#">Instagram</a> 
+</div>
+</div>
+  </li>
+</ul>
+</nav> -->
+
+
+
+
+
+  
+  <!-- </header>  -->
+   <!-- <section> -->
+   
+ 
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.watchsystem.com.br/imagensprodutos/setembro%202020.jpg" class="d-block w-100" alt="banner relogio">
+        </div>
+        <!-- <div class="carousel-item">
+          <img src="https://timecenter.vteximg.com.br/arquivos/ids/162510/banner_virtual_technosstone_980x384px.jpg?v=635727497273200000" class="d-block w-100" alt="banner relogio">
+        </div> -->
+      </div>
+    </div> 
+
+ 
+ <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>  --> 
+
+    
+ </section> 
+
+
+<section>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-12 text-dark text-center my-4 mx-5">
+  <h1>Produtos</h1>
+
+  
+  <div class="row">
+  <div class="col-sm-4">
+    <div class="card border-primary " style="width: 18rem;">
+      <img src="https://ae01.alicdn.com/kf/Hde7531451427400d90186d63b724ab0a6/2018-novos-rel-gios-masculinos-marca-de-luxo-lige-chronograph-masculino-rel-gios-esportivos-prova-dwaterproof.jpg"  class="card-img-top"  alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Comprar</a>
+  
+      </div>
+      </div>
+     </div>
+     
+  
+      <div class="col-sm-4">
+        <div class="card border-warning" style="width: 18rem;">
+          <img src="https://cf.shopee.com.br/file/da2d3b6227de39e581375d2249031ab4"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-warning">Comprar</a>
+  
+          </div>
+        </div>
+       </div>
+  
+        <div class="col-sm-4">
+  
+          <div class="card border-danger" style="width: 18rem;">
+            <img src="https://ae01.alicdn.com/kf/H89c08d2fda494e2d858eb2a58448af52x/Mens-Rel-gios-LIGE-9982-Marca-de-Luxo-Rel-gio-de-Quartzo-de-a-o-Inoxid.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-danger">Comprar</a>
+    
+            </div>
+          </div>
+         </div>
+         
+     
+
+<div class="col-sm-12 text-dark text-center my-4 ">
+
+
+
+<div class="row">
+<div class="col-sm-4">
+  <div class="card border-primary" style="width: 18rem;">
+    <img src="https://compra24h.com.br/image/cache/catalog//B0773N21F5/Watches-Mens-Full-Steel-Quartz-Analog-Wrist-Watch-Men-Luxury-Brand-LIGE-Waterpro-500x500.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+
+    </div>
+    </div>
+   </div>
+   
+
+    <div class="col-sm-4">
+      <div class="card border-warning" style="width: 18rem;">
+        <img src="https://cdn.awsli.com.br/599/599437/arquivos/relogio-lige-9856-dourado-pulseira-de-couro.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-warning">Comprar</a>
+
+        </div>
+      </div>
+     </div>
+
+      <div class="col-sm-4">
+
+        <div class="card border-danger" style="width: 18rem;">
+          <img src="https://36732.cdn.simplo7.net/static/36732/sku/a3887-0576a.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-danger">Comprar</a>
+  
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+      </div> 
+   </div>      
+   
+   
+  </div>
+</div>
+
+ <!-- jumbotron -->
+
+
+
+
+
+    <!-- <p class="lead">Olá visitante bem vindo a InBellostore aqui é o lugar onde você irá encontrar relógios de qualidade e preço acessível, temos contato com os melhores fornecedores de relógio do mercado, vamos te ajudar do começo até o fim da sua compra, Aqui a sua compra é segura  e os produtos são de qualidade e com garantia.Conte conosco ;)</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> 
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+
+
+
+
+<!-- </div>   -->
+
+
+
+   <div class="row mb-12 ">
+   <div class="col-sm-4" >
+      <div class="card">
+
+        <div class="card-body"></div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQync2fthUnBPtk8PaTwpy_0LloIhLMxp5VRQ&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+       
+       
+        </div>
+      </div>
+    </div>
+
+
+  
+      <div class="col-sm-4 ">
+        <div class="card">
+          <div class="card-body"></div>
+          <img src="img/smartwatch.jpg"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          
+          
+          </div>
+        </div>
+      </div>
+
+
+  
+        <div class="col-sm-4 " >
+          <div class="card">
+            <div class="card-body"></div>
+            <img src="https://images.madeiramadeira.com.br/central-de-dicas/images/23731244-shutterstock504986335-min-1000x666.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        
+        </div>
+      </div> 
+   </div>
+
+
+   
+ 
+   <div class="jumbotron jumbotron-fluid">
+    <div class="container img">
+     
+     <div class="row">
+   
+       <div class="col-sm-6 ">
+        <!-- <img class="embed-responsive-item" src="https://c.wallhere.com/images/1c/d2/9e0b92b045845281347aef2f578f-1322069.jpg!d"> -->
+         </div>
+         <div class="col-sm-6">
+           <h1 class="display-4">Olá seja bem vindo a INBELLOSTORE</h1>
+           <p>Olá visitante bem vindo a InBellostore aqui é o lugar onde você irá encontrar relógios de
+             qualidade e preço acessível, temos contato com os melhores fornecedores de relógio do mercado, 
+             vamos te ajudar do começo até o fim da sua compra, Aqui a sua compra é segura  e os produtos 
+             são de qualidade e com garantia.Conte conosco ;)</p>
+           <!-- <p class="lead">Olá visitante bem vindo a InBellostore aqui é o lugar onde você irá encontrar relógios de qualidade e preço acessível, temos contato com os melhores fornecedores de relógio do mercado, vamos te ajudar do começo até o fim da sua compra, Aqui a sua compra é segura  e os produtos são de qualidade e com garantia.Conte conosco ;)</p> -->
+         </div> 
+         </div> 
+        </div> 
+      </div> 
+<!-- </div>  -->
+
+
+    <!-- <div class="col">
+      <div class="card h-100">
+        <img src="../IN BELLO SHOP/casual.jpg" style="width: 520px; height: 345px;"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="../IN BELLO SHOP/MILITAR.jpg"   style="width: 520px; height: 345px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <footer> 
+
+  
+    <div class="art">
+      <div class="container">
+      <div class="row">
+     
+        <div class="col-md-12 my-4">
+         <h3 class="main-title " >Entre em contato conosco: </h3>
+       </div>
+
+
+       <div class="col-md-4 contact-box">
+       <i class="fas fa-phone "></i>
+       <p class="telefoneico">890-09880-45590<p>
+       <p><span class="contact-title">Horario de funcionamento:</span> 8:00 às 17:00</p>
+     </div>
+     
+     
+     <div class="col-md-4 contact-box">
+     <i class="email"></i>
+     <p><span class="contact-title">Envie um email: </span>atendimentoinbello@hotmail.com</p>
+   </div>
+
+   <div class="col-md-4 contact-box">
+  
+   <p><span class="local">Venha tomar um café: </span>Avenida paulista-000</p>
+     </div>
+    </div>
+     <div class="col-md-9 ">
+     
+      <div class="col-md-12 "  id="msg-box">
+        <h2 class="display-4 my-5"><i class="fa fa-paper-plane "></i>Ou deixe-nos uma mensagem</h2>
+       </div>
+       
+     <form>
+
+      <div class="form-group">
+          <label for="exampleInputEmail1" >Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted-blue">We'll never share your email with anyone else.</small>
+        </div>
+
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    
+      </div>
+    </div>
+  <!-- </div>
+
+    </div>
+</div> -->
+
+  <!-- </div>
+</div>
+</div> -->
+
+
+
+  </footer>
+
+  </body>
+</html>
+
+
+
+
+
+  <!-- <div class="container">
+
+ <form>
+  <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    
+    
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div> -->
+
+
+
+
+
+
+
+
+<!--<footer> 
+  <div class="container">
+   <div class="row">
+    <div class="col-sm-12">
+       <h3 class="main-title">Entre em contato conosco</h3>
+     </div>
+
+
+     <div class="col-md-4 contact-box">
+     <i class="fas fa-phone"></i>
+     <p><span class="contact-title">Ligue para</span>(44)41324-4213</p>
+     <p><span class="contact-title">Horario de funcionamento</span>horario comercial</p>
+   </div>
+   
+   <div class="col-md-4 contact-box"></div>
+   <i class="fas fa-envelope"></i>
+   <p><span class="contact-title">Envie um email</span>atendiemntoinbello@hotmail.com</p>
+ </div>
+
+
+ <div class="col-md-4 contact-box"></div>
+ <i class="fas fa-envelope"></i>
+ <p><span class="contact-tile">Venha tomar um cafe</span>Avenida paulista-000</p>
+   </div>
+   
+  
+ </div>
+</div>
+
+
+
+
+</footer>
+
+
+</body>
+</html>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<h1>Rodapé Para Sites Com Links e Descrição</h1>
+<div id="FIMfim">
+	<div id="col1">
+		<img src="https://1.bp.blogspot.com/-2knmdLq8qcg/Xo693_Ok0eI/AAAAAAAAGyY/bNyR59TMJBgJb1ECRn3eOx82Wr5rUJjWgCLcBGAsYHQ/s1600/Junior%2BCriste.png" width="250px"  height="250px">
+		</div>
+	<div id="col2">
+	<a class="rdp" href="https://www.informaticode.com.br/p/junior-criste.html">Quem sou eu?</a><br />
+	<a class="rdp" href="mailto://informaticode@gmail.com">Fale Comigo</a><br />
+	<a class="rdp" href="https://github.com/JuniorCriste" target="_blank">Meu GitHub</a>  <br/>
+	<a class="rdp" href="https://www.instagram.com/myself.junior/ " target="_blank">@myself.junior</a>
+	</div>
+	<div id="col3">
+   <a class="rdp" href="https://youtube.com/informaticode" target="_blank">Youtube</a><br />
+    <a class="rdp" href="https://instagram.com/informaticode" target="_blank">Instagram</a><br />
+    <a class="rdp" href="https://facebook.com/informaticode" target="_blank">Facebook</a><br />
+	<a class="rdp" href="https://www.informaticode.com.br/p/sobre.html">Sobre</a><br />
+  <br />
+	</div>
+	<div id="col4">
+© Copyright 2012 - 2020 Josimar Junior Evangelista Criste - Todos os direitos reservados.
+				</div>
+	</div>
+</body>
+  </html>
+  
+
+
+
+
+  <div class="barra-vantagens"> <div class="container"> 
+    <div class="selos-home clearfix"> <div class="col-md-3 col-sm-3 col-xs-3"> 
+      <div class="base-set-icon-cartao hidden-sm"><span style="position: absolute;">&nbsp;</span>
+      </div> <div class="hidden-xs"> <span>5% de Desconto</span>
+         <p>Pagamento em 1X no cartão</p> </div> </div> <div class="col-md-3 col-sm-3 col-xs-3"> <div class="base-set-icon-card hidden-sm"><span style="position: absolute;">&nbsp;</span></div> <div class="hidden-xs"> <span>Pagamento Fácil</span> <p>Suas Compras em Até 10X.</p> </div> </div> <div class="col-md-3 col-sm-3 col-xs-3"> <div class="base-set-icon-secure hidden-sm"><span style="position: absolute;">&nbsp;</span></div> <div class="hidden-xs"> <span>Compra Segura</span> <p>Ambiente seguro e certificado</p> </div> </div> <div class="col-md-3 col-sm-3 col-xs-3"> <div class="base-set-icon-frete hidden-sm"><span style="position: absolute;">&nbsp;</span></div> <div class="hidden-xs"> <span>Frete grátis</span> <p>Nos produtos selecionados</p> </div> </div> </div> </div> </div> <div class="main"> <div class="container"> <div class="col-sm-4 col-md-4"> <a class="box-institucional" href="/sobre-nossa-loja"> <img src="https://www.eclock.com.br/skin/frontend/inovarti/eclock/images/xlogo.png.pagespeed.ic.m1Awc5qCLD.webp" alt="Sobre Nossa Loja" data-pagespeed-url-hash="2496264626" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> </a> <div class="newsletter"> <div class="row hidden-xs info-text"> <div class="col-sm-4 col-md-3 text-right"><span class="wire-cicle"><i class="base-set-icon-email"></i></span> </div> <div class="col-sm-8 col-md-9 nopadding-left"><span class="txt">Imagina só receber <b>as melhores ofertas</b><br>de bandeja por email. Bom, né?</span></div> </div> <div class="block block-subscribe"> <form action="https://www.eclock.com.br/modalnewsletter/subscriber/new/" method="post" id="newsletter-validate-detail" enctype="multipart/form-data"> <input type="hidden" id="genero" name="genero" value=""/> <div class="input-box form-group"> <div class="row"> <div class="col-xs-12"> <input type="text" name="name" title="Nome e Sobrenome" placeholder="Nome e Sobrenome" class="input-text form-control required-entry"/> </div> </div> </div> <div class="input-box form-group"> <div class="row"> <div class="col-xs-12"> <input type="text" name="email" id="newsletter" title="Assinar nossa newsletter" placeholder="Digite seu email..." class="input-text form-control required-entry validate-email"/> </div> </div> </div> <div class="input-box form-group"> <div class="row"> <div class="col-xs-6"> <button type="button" onclick="newsletterSubscriberFormDetail.submit(this,1)" title="Assinar" class="btn btn-block btn-success">HOMEM</span></span></button> </div> <div class="col-xs-6"> <button type="button" onclick="newsletterSubscriberFormDetail.submit(this,2)" title="Assinar" class="btn btn-block btn-success">MULHER</span></span></button> </div> </div> </div> <div id="msg-news-footer"></div> </form><script type="text/javascript">var newsletterSubscriberFormDetail=new VarienForm('newsletter-validate-detail');newsletterSubscriberFormDetail.submit=function(button,gen){if(this.validator.validate()){$('msg-news-footer').update('<img alt="clock-loading" src="/skin/frontend/inovarti/eclock/images/clock_loading.gif">');var form=this.form;var url=form.action;var e=null;jQuery("#newsletter-validate-detail input[name='genero']").val(gen);var email=jQuery("#newsletter-validate-detail input[name='email']").val();var name=jQuery("#newsletter-validate-detail input[name='name']").val();var sexo=gen==1?'Masculino':'Feminino';try{new Ajax.Request(url,{method:'POST',parameters:form.serialize(),evalScripts:true,asynchronous:true,onSuccess:function(transport){if(200==transport.status){var json=transport.responseText.evalJSON();if(json.sucesso==1){$('msg-news-footer').update('<span class="alert alert-success">'+json.message+'</span>');__blc['id']="df4a4886e01600956ba721879fda42f6";try{lc.sendData({evento:'Cadastro Popup',nm_email:''+email+'',vars:{nome:''+name+'',sexo:''+sexo+''},lista:{nm_lista:'base_full_eclock',atualizar:'0',nome:''+name+'',sexo:''+sexo+''}});}catch(e){}}else{$('msg-news-footer').update('<span class="alert alert-danger">'+json.message+'</span>');}}},onFailure:function(){$('msg-news-footer').update('');}});}catch(e){}if(e){throw e;}if(button&&button!='undefined'){}}}.bind(newsletterSubscriberFormDetail);</script></div> </div> </div> <div class="col-sm-3 col-md-3"> <h5>Institucional</h5> <ul> <li><a href="/sobre-nossa-loja" alt="Conheça a Eclock">Sobre a E-Clock - Relógios de Fábrica na Internet</a></li> <li><a href="/nossas-lojas" alt="Conheça as lojas da Eclock">Nossas Lojas</a></li> <li><a href="/seguranca" alt="Nosso site é extremamente seguro">Compra Segura</a></li> <li class="last privacy"><a href="/"> </a></li> <li><a href="/privacidade" alt="Conheça a nossa política de privacidade">Política de privacidade</a></li> </ul> <h5>Atendimento</h5> <ul> <li><a href="/faq">Perguntas Frequentes </a> </li> <li><a href="/central-de-atendimento">Central de Atendimento </a></li> <li><a href="/como-comprar">Como comprar</a></li> <li><a href="/entregas">Entrega</a></li> <li><a href="/pagamento">Pagamento</a></li> <li><a href="/trocas-devolucoes" target="_blank">Trocas e Devoluções</a></li> <li><a href="/contacts">Fale Conosco </a></li> </ul> </div> <div class="col-sm-2 col-md-2"> <h5>Ajuda</h5> <div class="links"> <ul class="list-inline"> <li class="first"><a href="/sales/order/history/" title="Meus Pedidos">Meus Pedidos</a></li> <li><a href="/trocas-devolucoes" title="Troca e Devolução">Troca e Devolução</a></li> <li><a href="/entregas" title="Entregas">Entregas</a></li> <li><a href="https://www.eclock.com.br/contacts/" title="Contate-nos">Contate-nos</a></li> <li class=" last"><a href="https://www.eclock.com.br/sitemap/" title="Mapa do Site">Mapa do Site</a></li> </ul> </div> <h5><a href='/relogio/masculino' title='Relógio' target='_self' class='autolink'>Relógio</a></h5> <ul> <li><a href="/relogio/masculino">Relógio Masculino</a> </li> <li><a href="/relogio/feminino>Relógio Feminino </a></li> <li><a href=" relogio marca champion>Relógio Champion</a></li> <li><a href="/relogio/marca/mondaine">Relógio Mondaine</a></li> <li><a href="/relogio/marca/orient">Relógio Orient</a></li> <li><a href="/relogio/marca/technos">Relógio Technos</a></li> <li><a href="/RELOGIO-MASCULINO-DIGITAL">Relogio Digital</a></li> <li><a href="/RELOGIOS-PROMOCAO">Promoção</a></li> </ul> </div> <div class="col-sm-3 col-md-3"> <h5>Joias em Ouro</h5> <ul> <li><a href="/joias/ouro/anel">Anel de Ouro</a> </li> <li><a href="/joias/ouro/corrente">Corrente de Ouro</a></li> <li><a href="/ brinco-de-ouro">Brinco de Ouro</a></li> <li><a href="/joias/ouro/pulseira">Pulseira de Ouro</a></li> </ul> <h5>Joias em <a href='/joias/prata' title='Prata' target='_self' class='autolink'>Prata</a></h5> <ul> <li><a href="/joias/prata/anel">Anel de Ouro</a> </li> <li><a href="/joias/prata/corrente">Corrente de Ouro</a></li> <li><a href="/ joias/prata/brinco>Brinco de Ouro</a></li> <li><a href=" joias prata pulseira">Pulseira de Ouro</a></li> </ul> <h5><a href="/semi-joias">Semi Joias</a></h5> <h5><a href="/caneta">Canetas</a></h5> </div> </div> </div> <div class="social-midia"> <div class="container"> <div class="row"> <div class="col-md-6"> <div class="col-md-4"> <h5>Encontre-nos aqui</h5> </div> <div class="col-md-8"> <ul class="box-social-midia"> <li> <a href="https://www.facebook.com/eclockrelogios" title="Facebook" target="_blank" class="base-set-icon-face"></a> </li> <li> <a href="https://twitter.com/eclock" title="Twitter" target="_blank" class="base-set-icon-twitter"></a> </li> <li> <a href="https://plus.google.com/+eclock/posts" title="Google+" target="_blank" class="base-set-icon-google"></a> </li> <li> <a href="https://www.youtube.com/channel/UCyQiD2ycp0TA7dPFZExS2vA" title="Youtube" target="_blank" class="base-set-icon-youtube"></a> </li> </ul> </div> </div> <div class="col-md-6 txt-resumo">A <a href='/' target='_self' class='autolink'>Eclock</a> é uma empresa do Grupo Estrela de Ouro Jóias. Um grupo que nasceu há 16 anos com o sonho de dois irmãos de transformar o pequeno comércio de seu pai em uma das maiores empresas da cidade.</div> </div> </div> </div> <div class="copyright"> <div class="container"> <div class="col-md-5"> <h6>Segurança</h6> <ul class="clearfix"> <li class="selo clear-sale"><img data-pagespeed-lazy-src="https://www.eclock.com.br/skin/frontend/inovarti/default/images/selos-temp/xclear-sale.jpg.pagespeed.ic.gQ9BFzqmND.webp" alt="Selo Clearsale" data-pagespeed-url-hash="1270837436" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></li> </ul> </div> <div class="col-md-7"> <h6>Formas de Pagamento <span class="pull-right">Credibilidade </span></h6> <div class="bandeiras-footer pull-left"> <ul class="bandeiras clearfix"> <li><img alt="Visa" data-pagespeed-lazy-src="/skin/frontend/inovarti/default/images/bandeiras/xlogo_visa.png.pagespeed.ic.ReeoojlTXi.webp" data-pagespeed-url-hash="834440522" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/></li> <li><img alt="Mastercard" data-pagespeed-lazy-src="/skin/frontend/inovarti/default/images/bandeiras/xlogo_master.png.pagespeed.ic.nSK82ZC32j.webp" data-pagespeed-url-hash="1790827723" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/></li> <li><img alt="Diners" data-pagespeed-lazy-src="/skin/frontend/inovarti/default/images/bandeiras/xlogo_diners.png.pagespeed.ic.iFRDw6pxLg.webp" data-pagespeed-url-hash="2894988946" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/></li> <li><img alt="Elo" data-pagespeed-lazy-src="/skin/frontend/inovarti/default/images/bandeiras/xlogo_elo.png.pagespeed.ic._1R8WlBeKC.webp" data-pagespeed-url-hash="1311135025" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/></li> <li><img alt="Amex" data-pagespeed-lazy-src="/skin/frontend/inovarti/default/images/bandeiras/xlogo_amex.png.pagespeed.ic.3diNzYfwNU.webp" data-pagespeed-url-hash="195919044" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/></li> <li><img alt="Hipercard" data-pagespeed-lazy-src="/skin/frontend/inovarti/default/images/bandeiras/xlogo_hipercard.png.pagespeed.ic.uCIPQzUTXO.webp" data-pagespeed-url-hash="2865352673" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/></li> <li><img alt="Boleto" data-pagespeed-lazy-src="/skin/frontend/inovarti/mobile/images/bandeiras/xboleto-min.png.pagespeed.ic.v21lbr9eie.webp" data-pagespeed-url-hash="98793066" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/></li> </ul> </div> <ul class="selos-credibilidade clearfix pull-right"> <li class="selo"><script type="text/javascript" data-pagespeed-no-defer>pagespeed.lazyLoadImages.overrideAttributeFunctions();</script><script src="https://s3-sa-east-1.amazonaws.com/verificada/49023-selo-verificada.js" data-id="9"></script><span id="selo-verificada"></span> </li> </ul> </div> </div><script language='javascript'>function vopenw(){tbar='location=no,status=yes,resizable=yes,scrollbars=yes,width=560,height=535';sw=window.open('https://www.certisign.com.br/seal/splashcerti.htm','CRSN_Splash',tbar);sw.focus();}</script><div class="copyright-txt"> <div class="container text-center"> <address class="col-md-10"><i class="base-set-icon-location hidden-md"></i><p>Rua João Caetano, 55, 7º Andar, Alcântara - São Gonçalo/RJ</p> <ul> <li>© 2019 ECLOCK. Todos os direitos reservados.<l i> <li>Estrela de Ouro Joias e Relogios Ltda</li> <li>CNPJ: 19.469.866/0001/74</li> </ul></address> <div class="col-md-2"> <div class="i9ti-signature"> <strong> <a href="http://www.inovarti.com.br" target="_blank"><img data-pagespeed-lazy-src="https://www.eclock.com.br/skin/frontend/inovarti/eclock/images/signature/xInovarti-Solucoes-Ecommerce.png.pagespeed.ic.l7D9y5Rkqj.webp" alt="Inovarti - Soluções Avançadas em E-commerce" data-pagespeed-url-hash="1918772261" src="https://www.gstatic.com/psa/static/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"></a> </strong> </div> </div> </div> </div> </div> </footer><script type="text/javascript" data-pagespeed-no-defer>pagespeed.lazyLoadImages.overrideAttributeFunctions();</script><script type="text/javascript">window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');$.src='//cdn.zopim.com/?nGb8wHWeWpmWmH4l7AMGiQTaNtuMFTTX';z.t=+new Date;$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');</script></body> </html>
